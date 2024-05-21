@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../assets/CSS/contact-us.css">
+    <link rel="stylesheet" href="../assets/CSS/font.css">
+    <link rel="stylesheet" href="../assets/CSS/responsiveNav.css">
+    <link rel="stylesheet" href="../assets/Vendor/bootstrap/bootstrap-5.3.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body class="app-bg">
+
+    <!-- Header -->
+    <div class="header-bg">
+        <nav class="container header d-flex justify-content-between align-items-center py-2">
+            <div class="logo">
+               <img src="../assets/Images/site-logo/logo.png" alt="" class="w-100">
+            </div>
+            <ul class="d-flex column-gap-5 mt-3" id="navbar">
+              <li class="px-3 py-2 rounded-5 active"><a href="../index.html"  class="text-decoration-none">Home</a></li>
+              <li class="px-3 py-2 rounded-5"><a href="./about.html"  class="text-decoration-none">About Us</a></li>
+              <li class="px-3 py-2 rounded-5"><a href="./faq.html"  class="text-decoration-none">FAQs</a></li>
+              <li class="px-3 py-2 rounded-5"><a href="./enquiry.html" class="text-decoration-none color">Contact Us</a></li>
+              <li class="px-3 py-2 rounded-5"><a href="./login.html"  class="text-decoration-none">Client Login</a></li>
+              <li class=""><a href="#" id="close" class="text-decoration-none"><i class="bi bi-x"></i></a></li>
+           </ul>
+            <!-- mobile hamburger menu -->
+            <div class="mobile">
+                <i id="bar" class="bi bi-list-ul"></i>
+            </div>
+         </nav>
+       </div>
+
+    <div class="container mt-5">
+        <p class="text-center fw-semibold fs-4"><img src="../assets/Images/contact-us images/directbox-receive.png" alt=""> Contact Us</p>
+        <p class="text-center fw-bold fs-3">Get In a Touch</p>
+    </div>
+
+    <section class="mt-5 container d-flex gap-4 flex-wrap">
+        <div class="d-flex flex-column align-items-center p-4 col-12 col-lg-6">
+            <p class="fw-semibold fs-5 text-center">Dreams to Reality: Unleashing Your App's Potential – A Collaborative Journey of Innovation and Impact</p>
+            <p class="fs-5 text-center text-secondary">We're excited to hear about your vision! Please provide a brief description of your app concept, the key features you envision, and the primary goal or impact you aim to achieve with it. This information will enable us to better understand your needs and come to our meeting with tailored suggestions and ideas to make your app a success. Looking forward to collaborating and bringing your innovative app to life</p>
+            <img src="../assets/Images/contact-us images/Rectangle 10.png" alt="" class="w-75">
+        </div>
+        <div class="col-12 col-lg-5">
+            <form action="">
+
+                <div class="row mb-3">
+                    <label for="" class="fw-semibold">Full Name</label>
+                    <div class="col mt-2">
+                      <input type="text" class="form-control bg-transparent border-dark" placeholder="First name" aria-label="First name">
+                    </div>
+                    <div class="col mt-2">
+                      <input type="text" class="form-control bg-transparent border-dark" placeholder="Last name" aria-label="Last name">
+                    </div>
+                  </div>
+
+                  <div class="mb-3">
+                    <label for="formGroupExampleInput" class="form-label fw-semibold">Company Name</label>
+                    <input type="text" class="form-control bg-transparent border-dark" id="formGroupExampleInput" placeholder="Enter Company Name">
+                  </div>
+
+                  <div class="mb-3">
+                    <label for="inputEmail3" class="form-label fw-semibold">Bussiness Email</label>
+                    <div>
+                      <input type="email" class="form-control bg-transparent border-dark email-icon" id="inputEmail3" placeholder="&#x2709; Enter Email Address">
+                    </div>
+                  </div>
+
+                  <div class="mb-3">
+                    <label for="inputEmail3" class="form-label fw-semibold">Contact</label>
+                    <div>
+                      <input type="text" class="form-control bg-transparent border-dark phone-icon" id="inputEmail3" placeholder="Enter Contact Number">
+                    </div>
+                  </div>
+
+                  <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label fw-semibold">Description</label>
+                    <textarea class="form-control bg-transparent border-dark overflow-hidden" id="exampleFormControlTextarea1" placeholder="Access your dedicated healthcare professional portal for secure and streamlined interactions. Log in to manage patient data, stay updated on medical protocols, and collaborate seamlessly..." rows="4"></textarea>
+                  </div>
+
+                  <div class="form-check form-check-inline mb-3">
+                    <input type="checkbox" class="form-check-input mt-2 custom-checkbox primary-inner-text-color" id="agreeCheckbox">
+                    <label class="form-check-label text-secondary" for="inlineCheckbox1">Give me an edge by sending me occasional emails with insights and strategies for achieving SaMD and connected device success.
+                    </label>
+                  </div>
+
+                  <div class="d-flex justify-content-center mt-1">
+                    <button type="submit" class="btn1 fw-semibold fs-5 rounded-3 py-2 mb-5">Submit</button>
+                  </div>
+
+            </form>
+        </div>
+        
+    </section>
+    <script src="../assets/SCRIPTS/navigation.js"></script>
+</body>
+</html>
